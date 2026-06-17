@@ -1,0 +1,334 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Department {
+  id           String   @id @default(cuid())
+  slug         String   @unique
+  name         String
+  code         String
+  domain       String
+  description  String
+  color        String
+  accent       String
+  visualSystem String
+  image        String
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  director     Director?
+  agents       Agent[]
+  agentStats   AgentStat[]
+  synergyNodes SynergyNodeDepartment[]
+
+  @@map("departments")
+}
+
+model Director {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  name         String
+  role         String
+  mission      String
+  prompt       String
+  image        String
+  platform     Platform?  @relation(fields: [platformId], references: [id])
+  platformId   String?
+  department   Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId String     @unique
+  tools        DirectorTool[]
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  @@map("directors")
+}
+
+model Agent {
+  id                  String              @id @default(cuid())
+  slug                String              @unique
+  name                String
+  tier                String
+  role                String
+  primaryFunction     String
+  mission             String
+  prompt              String
+  inputs              String
+  outputs             String
+  dependencies        String
+  useCases            String
+  capabilities        String
+  aegisLevel          String
+  compatibilityScore  Int
+  effectivenessScore  Int
+  executionComplexity Int
+  image               String
+  department          Department          @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId        String
+  tools               AgentTool[]
+  platforms           AgentPlatform[]
+  relationshipsFrom   AgentRelationship[] @relation("AgentRelationshipFrom")
+  relationshipsTo     AgentRelationship[] @relation("AgentRelationshipTo")
+  metrics             AgentMetric?
+  stats               AgentStat?
+  savedBuilds         SavedBuildAgent[]
+  favorites           Favorite[]
+  createdAt           DateTime            @default(now())
+  updatedAt           DateTime            @updatedAt
+
+  @@index([departmentId])
+  @@map("agents")
+}
+
+model Tool {
+  id        String         @id @default(cuid())
+  slug      String         @unique
+  name      String
+  category  String
+  agents    AgentTool[]
+  directors DirectorTool[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  @@map("tools")
+}
+
+model Platform {
+  id          String          @id
+  name        String
+  description String
+  agents      AgentPlatform[]
+  directors   Director[]
+
+  @@map("platforms")
+}
+
+model SynergyNode {
+  id               String                   @id @default(cuid())
+  slug             String                   @unique
+  name             String
+  useCase          String
+  revenuePhase     String
+  capabilities     String
+  expectedOutcomes String
+  score            Int
+  departments      SynergyNodeDepartment[]
+  teamTemplates    TeamTemplateSynergyNode[]
+  createdAt        DateTime                 @default(now())
+  updatedAt        DateTime                 @updatedAt
+
+  @@map("synergy_nodes")
+}
+
+model AgentRelationship {
+  id          String @id @default(cuid())
+  type        String
+  strength    Int
+  description String
+  fromAgent   Agent  @relation("AgentRelationshipFrom", fields: [fromAgentId], references: [id], onDelete: Cascade)
+  fromAgentId String
+  toAgent     Agent  @relation("AgentRelationshipTo", fields: [toAgentId], references: [id], onDelete: Cascade)
+  toAgentId   String
+
+  @@unique([fromAgentId, toAgentId, type])
+  @@map("agent_relationships")
+}
+
+model AgentTool {
+  agent   Agent  @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId String
+  tool    Tool   @relation(fields: [toolId], references: [id], onDelete: Cascade)
+  toolId  String
+
+  @@id([agentId, toolId])
+  @@map("agent_tools")
+}
+
+model DirectorTool {
+  director   Director @relation(fields: [directorId], references: [id], onDelete: Cascade)
+  directorId String
+  tool       Tool     @relation(fields: [toolId], references: [id], onDelete: Cascade)
+  toolId     String
+
+  @@id([directorId, toolId])
+  @@map("director_tools")
+}
+
+model AgentPlatform {
+  agent      Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId    String
+  platform   Platform @relation(fields: [platformId], references: [id], onDelete: Cascade)
+  platformId String
+
+  @@id([agentId, platformId])
+  @@map("agent_platforms")
+}
+
+model AgentUseCase {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  title       String
+  description String
+  industry    String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("agent_use_cases")
+}
+
+model AgentMetric {
+  id                  String @id @default(cuid())
+  agent               Agent  @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId             String @unique
+  compatibilityScore  Int
+  effectivenessScore  Int
+  executionComplexity Int
+  qualityScore        Int
+  latencyScore        Int
+  costScore           Int
+
+  @@map("agent_metrics")
+}
+
+model AgentStat {
+  id                 String     @id @default(cuid())
+  agent              Agent?     @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId            String?    @unique
+  department         Department @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId       String
+  selectionFrequency Int
+  successRate        Int
+  revenueInfluence   Int
+  riskLoad           Int
+
+  @@map("agent_stats")
+}
+
+model TeamTemplate {
+  id                   String                    @id @default(cuid())
+  slug                 String                    @unique
+  name                 String
+  goal                 String
+  industry             String
+  budget               String
+  complexity           String
+  timeline             String
+  expectedOutcomeScore Int
+  agents               TeamTemplateAgent[]
+  synergyNodes         TeamTemplateSynergyNode[]
+  createdAt            DateTime                  @default(now())
+  updatedAt            DateTime                  @updatedAt
+
+  @@map("team_templates")
+}
+
+model TeamTemplateAgent {
+  template   TeamTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  templateId String
+  agent      Agent        @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId    String
+
+  @@id([templateId, agentId])
+  @@map("team_template_agents")
+}
+
+model TeamTemplateSynergyNode {
+  template     TeamTemplate @relation(fields: [templateId], references: [id], onDelete: Cascade)
+  templateId   String
+  synergyNode  SynergyNode  @relation(fields: [synergyNodeId], references: [id], onDelete: Cascade)
+  synergyNodeId String
+
+  @@id([templateId, synergyNodeId])
+  @@map("team_template_synergy_nodes")
+}
+
+model Simulation {
+  id                  String   @id @default(cuid())
+  name                String
+  selectedAgentSlugs  String
+  coverage            Int
+  skillOverlap        Int
+  capabilityGaps      String
+  divisionDiversity   Int
+  effectiveness       Int
+  executionComplexity Int
+  synergyScore        Int
+  aegisRiskScore      Int
+  createdAt           DateTime @default(now())
+
+  @@map("simulations")
+}
+
+model Outcome {
+  id          String   @id @default(cuid())
+  title       String
+  category    String
+  body        String
+  agentSlugs  String
+  score       Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("outcomes")
+}
+
+model User {
+  id          String       @id @default(cuid())
+  email       String       @unique
+  name        String
+  role        String       @default("operator")
+  savedBuilds SavedBuild[]
+  favorites   Favorite[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@map("users")
+}
+
+model SavedBuild {
+  id          String            @id @default(cuid())
+  name        String
+  description String
+  user        User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String
+  agents      SavedBuildAgent[]
+  createdAt   DateTime          @default(now())
+  updatedAt   DateTime          @updatedAt
+
+  @@map("saved_builds")
+}
+
+model SavedBuildAgent {
+  savedBuild   SavedBuild @relation(fields: [savedBuildId], references: [id], onDelete: Cascade)
+  savedBuildId String
+  agent        Agent      @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId      String
+
+  @@id([savedBuildId, agentId])
+  @@map("saved_build_agents")
+}
+
+model Favorite {
+  user      User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  agent     Agent  @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  agentId   String
+  createdAt DateTime @default(now())
+
+  @@id([userId, agentId])
+  @@map("favorites")
+}
+
+model SynergyNodeDepartment {
+  synergyNode  SynergyNode @relation(fields: [synergyNodeId], references: [id], onDelete: Cascade)
+  synergyNodeId String
+  department   Department  @relation(fields: [departmentId], references: [id], onDelete: Cascade)
+  departmentId String
+
+  @@id([synergyNodeId, departmentId])
+  @@map("synergy_node_departments")
+}
