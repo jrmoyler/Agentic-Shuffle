@@ -4,6 +4,7 @@
   "description": "AGENT SHUFFLE visual intelligence platform for Collective AI agents.",
   "private": true,
   "scripts": {
+    "postinstall": "prisma generate",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
