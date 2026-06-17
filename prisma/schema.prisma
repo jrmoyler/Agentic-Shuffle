@@ -4,7 +4,6 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
 }
 
 model Department {
@@ -75,6 +74,7 @@ model Agent {
   relationshipsTo     AgentRelationship[] @relation("AgentRelationshipTo")
   metrics             AgentMetric?
   stats               AgentStat?
+  teamTemplates       TeamTemplateAgent[]
   savedBuilds         SavedBuildAgent[]
   favorites           Favorite[]
   createdAt           DateTime            @default(now())

@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { AgentCard } from "@/components/agents/agent-card";
 import { GlassCard } from "@/components/ui/glass-card";
 import { recommendTemplate } from "@/lib/analytics";
+import { isDefined } from "@/lib/utils";
 import type { AgentCatalog, TeamTemplate } from "@/types/catalog";
 
 export function TeamGeneratorClient({ catalog }: { catalog: AgentCatalog }) {
@@ -17,8 +18,8 @@ export function TeamGeneratorClient({ catalog }: { catalog: AgentCatalog }) {
 
   const recommendations = useMemo(() => recommendTemplate(catalog, filters), [catalog, filters]);
   const best = recommendations[0];
-  const bestAgents = best ? best.agentSlugs.map((slug) => catalog.agents.find((agent) => agent.slug === slug)).filter(Boolean) : [];
-  const bestNodes = best ? best.synergyNodeSlugs.map((slug) => catalog.synergyNodes.find((node) => node.slug === slug)).filter(Boolean) : [];
+  const bestAgents = best ? best.agentSlugs.map((slug) => catalog.agents.find((agent) => agent.slug === slug)).filter(isDefined) : [];
+  const bestNodes = best ? best.synergyNodeSlugs.map((slug) => catalog.synergyNodes.find((node) => node.slug === slug)).filter(isDefined) : [];
 
   return (
     <div className="grid gap-6 lg:grid-cols-[360px_1fr]">

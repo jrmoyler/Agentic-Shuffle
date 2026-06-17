@@ -27,8 +27,10 @@
   },
   "homepage": "https://github.com/jrmoyler/Agentic-Shuffle#readme",
   "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.8.0",
     "@prisma/client": "^7.8.0",
     "@tanstack/react-virtual": "^3.14.3",
+    "better-sqlite3": "^12.11.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.40.0",
     "next": "^15.5.19",

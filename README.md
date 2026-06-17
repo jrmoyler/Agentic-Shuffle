@@ -98,7 +98,7 @@ The development schema uses SQLite:
 DATABASE_URL="file:./dev.db"
 ```
 
-For production, provision PostgreSQL and use the same normalized model with Prisma's PostgreSQL datasource provider. Keep `DATABASE_URL` as the production connection string and run migrations in CI/CD.
+This repo uses Prisma 7 configuration via `prisma.config.ts` and the official SQLite driver adapter for local development. For production, provision PostgreSQL and use the same normalized model with Prisma's PostgreSQL datasource provider plus the official PostgreSQL adapter. Keep `DATABASE_URL` as the production connection string and run migrations in CI/CD.
 
 ## Verification
 

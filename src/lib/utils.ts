@@ -20,3 +20,7 @@ export function clamp(value: number, min: number, max: number) {
 export function formatNumber(value: number) {
   return new Intl.NumberFormat("en-US").format(value);
 }
+
+export function isDefined<T>(value: T | undefined | null): value is T {
+  return value !== undefined && value !== null;
+}

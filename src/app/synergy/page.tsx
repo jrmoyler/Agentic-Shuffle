@@ -1,5 +1,6 @@
 import { GlassCard } from "@/components/ui/glass-card";
 import { getCatalog } from "@/data/catalog";
+import { isDefined } from "@/lib/utils";
 
 export default function SynergyExplorerPage() {
   const catalog = getCatalog();
@@ -16,7 +17,7 @@ export default function SynergyExplorerPage() {
         {catalog.synergyNodes.map((node, index) => {
           const divisions = node.participatingDivisions
             .map((slug) => catalog.divisions.find((division) => division.slug === slug))
-            .filter(Boolean);
+            .filter(isDefined);
           const color = divisions[0]?.theme.color ?? "#F43F5E";
 
           return (

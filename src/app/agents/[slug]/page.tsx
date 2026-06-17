@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { GlassCard } from "@/components/ui/glass-card";
 import { getAgentBySlug, getCatalog } from "@/data/catalog";
+import { isDefined } from "@/lib/utils";
 
 export async function generateStaticParams() {
   return getCatalog().agents.map((agent) => ({ slug: agent.slug }));
@@ -18,7 +19,7 @@ export default async function AgentDetailPage({ params }: { params: Promise<{ sl
 
   const catalog = getCatalog();
   const division = catalog.divisions.find((item) => item.slug === agent.divisionSlug);
-  const relatedAgents = agent.relationships.map((relatedSlug) => getAgentBySlug(relatedSlug)).filter(Boolean).slice(0, 6);
+  const relatedAgents = agent.relationships.map((relatedSlug) => getAgentBySlug(relatedSlug)).filter(isDefined).slice(0, 6);
   const color = division?.theme.color ?? "#7C3AED";
 
   return (

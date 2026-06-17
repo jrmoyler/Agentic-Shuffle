@@ -330,7 +330,7 @@ function makeSynergyNodes(divisions, blueprintText) {
 
     return {
       id: `node-${index + 1}`,
-      slug: slugify(name),
+      slug: `node-${index + 1}-${slugify(name)}`,
       name,
       participatingDivisions: [division.slug, partner.slug, secondPartner.slug],
       useCase: `Coordinate ${division.domain}, ${partner.domain}, and ${secondPartner.domain} into one measurable operating loop.`,
@@ -421,9 +421,50 @@ function enrichRelationships(divisions) {
   return divisions;
 }
 
+function ensureUniqueAgentSlugs(divisions, overseer) {
+  const counts = new Map();
+  const seen = new Map([[overseer.slug, 1]]);
+
+  for (const agent of [overseer, ...divisions.flatMap((division) => division.agents)]) {
+    counts.set(agent.slug, (counts.get(agent.slug) ?? 0) + 1);
+  }
+
+  for (const division of divisions) {
+    division.agents = division.agents.map((agent) => {
+      let slug = agent.slug;
+
+      if ((counts.get(agent.slug) ?? 0) <= 1) {
+        const seenCount = seen.get(slug) ?? 0;
+        seen.set(slug, seenCount + 1);
+
+        if (seenCount === 0) {
+          return agent;
+        }
+      } else {
+        slug = `${division.slug}-${agent.slug}`;
+      }
+
+      const seenCount = seen.get(slug) ?? 0;
+      seen.set(slug, seenCount + 1);
+
+      if (seenCount > 0) {
+        slug = `${slug}-${seenCount + 1}`;
+      }
+
+      return {
+        ...agent,
+        slug,
+        image: `/agents/${slug}.png`
+      };
+    });
+  }
+
+  return divisions;
+}
+
 function makeCatalog(rosterText, blueprintText) {
   const overseer = parseOverseer(rosterText);
-  const divisions = enrichRelationships(parseDivisions(rosterText));
+  const divisions = enrichRelationships(ensureUniqueAgentSlugs(parseDivisions(rosterText), overseer));
   const agents = [overseer, ...divisions.flatMap((division) => division.agents)];
   const directors = divisions.map((division) => division.director);
   const synergyNodes = makeSynergyNodes(divisions, blueprintText);

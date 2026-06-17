@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T04:26:58.227Z",
+  "generatedAt": "2026-06-17T04:41:30.792Z",
   "overseer": {
     "id": "agent-zenith",
     "slug": "zenith",
@@ -2056,7 +2056,7 @@
           "relationships": [
             "vantage",
             "sow-generator",
-            "competitive-intelligence-agent"
+            "the-collective-competitive-intelligence-agent"
           ],
           "useCases": [
             "The Collective command routing",
@@ -2279,7 +2279,7 @@
           ],
           "relationships": [
             "vantage",
-            "competitive-intelligence-agent",
+            "the-collective-competitive-intelligence-agent",
             "enterprise-diagnostic-agent"
           ],
           "useCases": [
@@ -2295,7 +2295,7 @@
         },
         {
           "id": "agent-the-collective-9",
-          "slug": "competitive-intelligence-agent",
+          "slug": "the-collective-competitive-intelligence-agent",
           "name": "Competitive Intelligence Agent",
           "divisionSlug": "the-collective",
           "divisionName": "The Collective",
@@ -2346,7 +2346,7 @@
           "compatibilityScore": 88,
           "effectivenessScore": 85,
           "executionComplexity": 87,
-          "image": "/agents/competitive-intelligence-agent.png"
+          "image": "/agents/the-collective-competitive-intelligence-agent.png"
         },
         {
           "id": "agent-the-collective-10",
@@ -2963,7 +2963,7 @@
           "relationships": [
             "vantage",
             "onboarding-experience-agent",
-            "partnership-development-agent"
+            "the-collective-partnership-development-agent"
           ],
           "useCases": [
             "The Collective command routing",
@@ -3019,7 +3019,7 @@
           "relationships": [
             "vantage",
             "executive-briefing-agent",
-            "quality-assurance-agent"
+            "the-collective-quality-assurance-agent"
           ],
           "useCases": [
             "The Collective command routing",
@@ -3187,7 +3187,7 @@
           ],
           "relationships": [
             "vantage",
-            "partnership-development-agent",
+            "the-collective-partnership-development-agent",
             "market-expansion-agent"
           ],
           "useCases": [
@@ -3203,7 +3203,7 @@
         },
         {
           "id": "agent-the-collective-25",
-          "slug": "partnership-development-agent",
+          "slug": "the-collective-partnership-development-agent",
           "name": "Partnership Development Agent",
           "divisionSlug": "the-collective",
           "divisionName": "The Collective",
@@ -3244,7 +3244,7 @@
           ],
           "relationships": [
             "vantage",
-            "quality-assurance-agent",
+            "the-collective-quality-assurance-agent",
             "testimonial-and-social-proof-agent"
           ],
           "useCases": [
@@ -3256,11 +3256,11 @@
           "compatibilityScore": 79,
           "effectivenessScore": 85,
           "executionComplexity": 44,
-          "image": "/agents/partnership-development-agent.png"
+          "image": "/agents/the-collective-partnership-development-agent.png"
         },
         {
           "id": "agent-the-collective-26",
-          "slug": "quality-assurance-agent",
+          "slug": "the-collective-quality-assurance-agent",
           "name": "Quality Assurance Agent",
           "divisionSlug": "the-collective",
           "divisionName": "The Collective",
@@ -3313,7 +3313,7 @@
           "compatibilityScore": 83,
           "effectivenessScore": 92,
           "executionComplexity": 48,
-          "image": "/agents/quality-assurance-agent.png"
+          "image": "/agents/the-collective-quality-assurance-agent.png"
         },
         {
           "id": "agent-the-collective-27",
@@ -4828,7 +4828,7 @@
           "relationships": [
             "atlas",
             "learning-path-architect",
-            "compliance-training-agent"
+            "hybrid-living-compliance-training-agent"
           ],
           "useCases": [
             "Hybrid Living command routing",
@@ -4938,7 +4938,7 @@
           "relationships": [
             "atlas",
             "revenue-intelligence-agent",
-            "international-expansion-agent"
+            "hybrid-living-international-expansion-agent"
           ],
           "useCases": [
             "Hybrid Living command routing",
@@ -5048,7 +5048,7 @@
           ],
           "relationships": [
             "atlas",
-            "compliance-training-agent",
+            "hybrid-living-compliance-training-agent",
             "curriculum-architect"
           ],
           "useCases": [
@@ -5064,7 +5064,7 @@
         },
         {
           "id": "agent-hybrid-living-27",
-          "slug": "compliance-training-agent",
+          "slug": "hybrid-living-compliance-training-agent",
           "name": "Compliance Training Agent",
           "divisionSlug": "hybrid-living",
           "divisionName": "Hybrid Living",
@@ -5119,7 +5119,7 @@
           "compatibilityScore": 94,
           "effectivenessScore": 86,
           "executionComplexity": 37,
-          "image": "/agents/compliance-training-agent.png"
+          "image": "/agents/hybrid-living-compliance-training-agent.png"
         },
         {
           "id": "agent-hybrid-living-28",
@@ -5162,7 +5162,7 @@
           ],
           "relationships": [
             "atlas",
-            "international-expansion-agent",
+            "hybrid-living-international-expansion-agent",
             "content-producer"
           ],
           "useCases": [
@@ -5178,7 +5178,7 @@
         },
         {
           "id": "agent-hybrid-living-29",
-          "slug": "international-expansion-agent",
+          "slug": "hybrid-living-international-expansion-agent",
           "name": "International Expansion Agent",
           "divisionSlug": "hybrid-living",
           "divisionName": "Hybrid Living",
@@ -5232,7 +5232,7 @@
           "compatibilityScore": 96,
           "effectivenessScore": 71,
           "executionComplexity": 52,
-          "image": "/agents/international-expansion-agent.png"
+          "image": "/agents/hybrid-living-international-expansion-agent.png"
         },
         {
           "id": "agent-hybrid-living-30",
@@ -5508,7 +5508,7 @@
           "relationships": [
             "prism",
             "skool-community-manager",
-            "seo-intelligence-agent"
+            "nexus-labs-seo-intelligence-agent"
           ],
           "useCases": [
             "Nexus Labs command routing",
@@ -5619,7 +5619,7 @@
           "relationships": [
             "prism",
             "video-production-agent",
-            "content-distribution-agent"
+            "nexus-labs-content-distribution-agent"
           ],
           "useCases": [
             "Nexus Labs command routing",
@@ -5731,7 +5731,7 @@
           ],
           "relationships": [
             "prism",
-            "seo-intelligence-agent",
+            "nexus-labs-seo-intelligence-agent",
             "podcast-guest-coordinator"
           ],
           "useCases": [
@@ -5747,7 +5747,7 @@
         },
         {
           "id": "agent-nexus-labs-8",
-          "slug": "seo-intelligence-agent",
+          "slug": "nexus-labs-seo-intelligence-agent",
           "name": "SEO Intelligence Agent",
           "divisionSlug": "nexus-labs",
           "divisionName": "Nexus Labs",
@@ -5800,7 +5800,7 @@
           "compatibilityScore": 75,
           "effectivenessScore": 72,
           "executionComplexity": 58,
-          "image": "/agents/seo-intelligence-agent.png"
+          "image": "/agents/nexus-labs-seo-intelligence-agent.png"
         },
         {
           "id": "agent-nexus-labs-9",
@@ -5843,7 +5843,7 @@
           ],
           "relationships": [
             "prism",
-            "content-distribution-agent",
+            "nexus-labs-content-distribution-agent",
             "events-production-agent"
           ],
           "useCases": [
@@ -5859,7 +5859,7 @@
         },
         {
           "id": "agent-nexus-labs-10",
-          "slug": "content-distribution-agent",
+          "slug": "nexus-labs-content-distribution-agent",
           "name": "Content Distribution Agent",
           "divisionSlug": "nexus-labs",
           "divisionName": "Nexus Labs",
@@ -5913,7 +5913,7 @@
           "compatibilityScore": 96,
           "effectivenessScore": 89,
           "executionComplexity": 64,
-          "image": "/agents/content-distribution-agent.png"
+          "image": "/agents/nexus-labs-content-distribution-agent.png"
         },
         {
           "id": "agent-nexus-labs-11",
@@ -7769,7 +7769,7 @@
           "relationships": [
             "terra",
             "property-acquisition-analyst",
-            "energy-efficiency-agent"
+            "terra-axis-energy-efficiency-agent"
           ],
           "useCases": [
             "Terra Axis command routing",
@@ -7997,7 +7997,7 @@
           ],
           "relationships": [
             "terra",
-            "energy-efficiency-agent",
+            "terra-axis-energy-efficiency-agent",
             "property-tax-optimization-agent"
           ],
           "useCases": [
@@ -8013,7 +8013,7 @@
         },
         {
           "id": "agent-terra-axis-17",
-          "slug": "energy-efficiency-agent",
+          "slug": "terra-axis-energy-efficiency-agent",
           "name": "Energy Efficiency Agent",
           "divisionSlug": "terra-axis",
           "divisionName": "Terra Axis",
@@ -8066,7 +8066,7 @@
           "compatibilityScore": 76,
           "effectivenessScore": 74,
           "executionComplexity": 55,
-          "image": "/agents/energy-efficiency-agent.png"
+          "image": "/agents/terra-axis-energy-efficiency-agent.png"
         },
         {
           "id": "agent-terra-axis-18",
@@ -9085,7 +9085,7 @@
           "relationships": [
             "helix",
             "clinical-partner-liaison-agent",
-            "synthetic-biology-research-agent"
+            "vital-helix-synthetic-biology-research-agent"
           ],
           "useCases": [
             "Vital Helix command routing",
@@ -9316,7 +9316,7 @@
           ],
           "relationships": [
             "helix",
-            "synthetic-biology-research-agent",
+            "vital-helix-synthetic-biology-research-agent",
             "wearable-integration-agent"
           ],
           "useCases": [
@@ -9332,7 +9332,7 @@
         },
         {
           "id": "agent-vital-helix-9",
-          "slug": "synthetic-biology-research-agent",
+          "slug": "vital-helix-synthetic-biology-research-agent",
           "name": "Synthetic Biology Research Agent",
           "divisionSlug": "vital-helix",
           "divisionName": "Vital Helix",
@@ -9385,7 +9385,7 @@
           "compatibilityScore": 78,
           "effectivenessScore": 72,
           "executionComplexity": 32,
-          "image": "/agents/synthetic-biology-research-agent.png"
+          "image": "/agents/vital-helix-synthetic-biology-research-agent.png"
         },
         {
           "id": "agent-vital-helix-10",
@@ -9543,7 +9543,7 @@
           "relationships": [
             "helix",
             "wearable-integration-agent",
-            "sleep-optimization-agent"
+            "vital-helix-sleep-optimization-agent"
           ],
           "useCases": [
             "Vital Helix command routing",
@@ -9601,7 +9601,7 @@
           "relationships": [
             "helix",
             "genomics-analysis-agent",
-            "nutrition-intelligence-agent"
+            "vital-helix-nutrition-intelligence-agent"
           ],
           "useCases": [
             "Vital Helix command routing",
@@ -9716,7 +9716,7 @@
           "relationships": [
             "helix",
             "prescription-intelligence-agent",
-            "regulatory-intelligence-agent"
+            "vital-helix-regulatory-intelligence-agent"
           ],
           "useCases": [
             "Vital Helix command routing",
@@ -9772,7 +9772,7 @@
           ],
           "relationships": [
             "helix",
-            "sleep-optimization-agent",
+            "vital-helix-sleep-optimization-agent",
             "clinical-outcomes-researcher"
           ],
           "useCases": [
@@ -9788,7 +9788,7 @@
         },
         {
           "id": "agent-vital-helix-17",
-          "slug": "sleep-optimization-agent",
+          "slug": "vital-helix-sleep-optimization-agent",
           "name": "Sleep Optimization Agent",
           "divisionSlug": "vital-helix",
           "divisionName": "Vital Helix",
@@ -9830,7 +9830,7 @@
           ],
           "relationships": [
             "helix",
-            "nutrition-intelligence-agent",
+            "vital-helix-nutrition-intelligence-agent",
             "supplement-intelligence-agent"
           ],
           "useCases": [
@@ -9842,11 +9842,11 @@
           "compatibilityScore": 97,
           "effectivenessScore": 92,
           "executionComplexity": 88,
-          "image": "/agents/sleep-optimization-agent.png"
+          "image": "/agents/vital-helix-sleep-optimization-agent.png"
         },
         {
           "id": "agent-vital-helix-18",
-          "slug": "nutrition-intelligence-agent",
+          "slug": "vital-helix-nutrition-intelligence-agent",
           "name": "Nutrition Intelligence Agent",
           "divisionSlug": "vital-helix",
           "divisionName": "Vital Helix",
@@ -9900,7 +9900,7 @@
           "compatibilityScore": 91,
           "effectivenessScore": 95,
           "executionComplexity": 67,
-          "image": "/agents/nutrition-intelligence-agent.png"
+          "image": "/agents/vital-helix-nutrition-intelligence-agent.png"
         },
         {
           "id": "agent-vital-helix-19",
@@ -9944,7 +9944,7 @@
           ],
           "relationships": [
             "helix",
-            "regulatory-intelligence-agent",
+            "vital-helix-regulatory-intelligence-agent",
             "patient-engagement-agent"
           ],
           "useCases": [
@@ -9960,7 +9960,7 @@
         },
         {
           "id": "agent-vital-helix-20",
-          "slug": "regulatory-intelligence-agent",
+          "slug": "vital-helix-regulatory-intelligence-agent",
           "name": "Regulatory Intelligence Agent",
           "divisionSlug": "vital-helix",
           "divisionName": "Vital Helix",
@@ -10012,7 +10012,7 @@
           "compatibilityScore": 87,
           "effectivenessScore": 78,
           "executionComplexity": 40,
-          "image": "/agents/regulatory-intelligence-agent.png"
+          "image": "/agents/vital-helix-regulatory-intelligence-agent.png"
         },
         {
           "id": "agent-vital-helix-21",
@@ -10803,7 +10803,7 @@
           "relationships": [
             "loom",
             "devops-pipeline-agent",
-            "incident-response-agent"
+            "binary-loom-incident-response-agent"
           ],
           "useCases": [
             "Binary Loom command routing",
@@ -11027,7 +11027,7 @@
           ],
           "relationships": [
             "loom",
-            "incident-response-agent",
+            "binary-loom-incident-response-agent",
             "data-privacy-and-governance-agent"
           ],
           "useCases": [
@@ -11043,7 +11043,7 @@
         },
         {
           "id": "agent-binary-loom-8",
-          "slug": "incident-response-agent",
+          "slug": "binary-loom-incident-response-agent",
           "name": "Incident Response Agent",
           "divisionSlug": "binary-loom",
           "divisionName": "Binary Loom",
@@ -11094,7 +11094,7 @@
           "compatibilityScore": 94,
           "effectivenessScore": 89,
           "executionComplexity": 29,
-          "image": "/agents/incident-response-agent.png"
+          "image": "/agents/binary-loom-incident-response-agent.png"
         },
         {
           "id": "agent-binary-loom-9",
@@ -13014,7 +13014,7 @@
           "relationships": [
             "ledger",
             "market-intelligence-agent",
-            "tax-intelligence-agent"
+            "quantum-ledger-tax-intelligence-agent"
           ],
           "useCases": [
             "Quantum Ledger command routing",
@@ -13242,7 +13242,7 @@
           ],
           "relationships": [
             "ledger",
-            "tax-intelligence-agent",
+            "quantum-ledger-tax-intelligence-agent",
             "cross-asset-correlation-agent"
           ],
           "useCases": [
@@ -13258,7 +13258,7 @@
         },
         {
           "id": "agent-quantum-ledger-16",
-          "slug": "tax-intelligence-agent",
+          "slug": "quantum-ledger-tax-intelligence-agent",
           "name": "Tax Intelligence Agent",
           "divisionSlug": "quantum-ledger",
           "divisionName": "Quantum Ledger",
@@ -13310,7 +13310,7 @@
           "compatibilityScore": 81,
           "effectivenessScore": 71,
           "executionComplexity": 65,
-          "image": "/agents/tax-intelligence-agent.png"
+          "image": "/agents/quantum-ledger-tax-intelligence-agent.png"
         },
         {
           "id": "agent-quantum-ledger-17",
@@ -14379,7 +14379,7 @@
           "relationships": [
             "apex",
             "sports-data-intelligence-agent",
-            "nutrition-intelligence-agent"
+            "kinetic-edge-nutrition-intelligence-agent"
           ],
           "useCases": [
             "Kinetic Edge command routing",
@@ -14610,7 +14610,7 @@
           ],
           "relationships": [
             "apex",
-            "nutrition-intelligence-agent",
+            "kinetic-edge-nutrition-intelligence-agent",
             "scouting-intelligence-agent"
           ],
           "useCases": [
@@ -14626,7 +14626,7 @@
         },
         {
           "id": "agent-kinetic-edge-9",
-          "slug": "nutrition-intelligence-agent",
+          "slug": "kinetic-edge-nutrition-intelligence-agent",
           "name": "Nutrition Intelligence Agent",
           "divisionSlug": "kinetic-edge",
           "divisionName": "Kinetic Edge",
@@ -14678,7 +14678,7 @@
           "compatibilityScore": 75,
           "effectivenessScore": 79,
           "executionComplexity": 42,
-          "image": "/agents/nutrition-intelligence-agent.png"
+          "image": "/agents/kinetic-edge-nutrition-intelligence-agent.png"
         },
         {
           "id": "agent-kinetic-edge-10",
@@ -14841,7 +14841,7 @@
           "relationships": [
             "apex",
             "scouting-intelligence-agent",
-            "sports-science-research-agent"
+            "kinetic-edge-sports-science-research-agent"
           ],
           "useCases": [
             "Kinetic Edge command routing",
@@ -15072,7 +15072,7 @@
           ],
           "relationships": [
             "apex",
-            "sports-science-research-agent",
+            "kinetic-edge-sports-science-research-agent",
             "devon-scott-liaison-agent"
           ],
           "useCases": [
@@ -15088,7 +15088,7 @@
         },
         {
           "id": "agent-kinetic-edge-17",
-          "slug": "sports-science-research-agent",
+          "slug": "kinetic-edge-sports-science-research-agent",
           "name": "Sports Science Research Agent",
           "divisionSlug": "kinetic-edge",
           "divisionName": "Kinetic Edge",
@@ -15141,7 +15141,7 @@
           "compatibilityScore": 92,
           "effectivenessScore": 83,
           "executionComplexity": 81,
-          "image": "/agents/sports-science-research-agent.png"
+          "image": "/agents/kinetic-edge-sports-science-research-agent.png"
         },
         {
           "id": "agent-kinetic-edge-18",
@@ -15592,7 +15592,7 @@
           "relationships": [
             "apex",
             "coaching-ai-partner-agent",
-            "sports-science-research-agent"
+            "kinetic-edge-sports-science-research-agent-2"
           ],
           "useCases": [
             "Kinetic Edge command routing",
@@ -15818,7 +15818,7 @@
           ],
           "relationships": [
             "apex",
-            "sports-science-research-agent",
+            "kinetic-edge-sports-science-research-agent-2",
             "kinetic-iq-consumer-agent"
           ],
           "useCases": [
@@ -15834,7 +15834,7 @@
         },
         {
           "id": "agent-kinetic-edge-30",
-          "slug": "sports-science-research-agent",
+          "slug": "kinetic-edge-sports-science-research-agent-2",
           "name": "Sports Science Research Agent",
           "divisionSlug": "kinetic-edge",
           "divisionName": "Kinetic Edge",
@@ -15888,7 +15888,7 @@
           "compatibilityScore": 92,
           "effectivenessScore": 83,
           "executionComplexity": 81,
-          "image": "/agents/sports-science-research-agent.png"
+          "image": "/agents/kinetic-edge-sports-science-research-agent-2.png"
         }
       ],
       "capabilities": [
@@ -15996,7 +15996,7 @@
           "relationships": [
             "sentinel",
             "soc-analyst-agent",
-            "incident-response-agent"
+            "obsidian-arc-incident-response-agent"
           ],
           "useCases": [
             "Obsidian Arc command routing",
@@ -16223,7 +16223,7 @@
           ],
           "relationships": [
             "sentinel",
-            "incident-response-agent",
+            "obsidian-arc-incident-response-agent",
             "security-sales-agent"
           ],
           "useCases": [
@@ -16239,7 +16239,7 @@
         },
         {
           "id": "agent-obsidian-arc-6",
-          "slug": "incident-response-agent",
+          "slug": "obsidian-arc-incident-response-agent",
           "name": "Incident Response Agent",
           "divisionSlug": "obsidian-arc",
           "divisionName": "Obsidian Arc",
@@ -16291,7 +16291,7 @@
           "compatibilityScore": 83,
           "effectivenessScore": 86,
           "executionComplexity": 33,
-          "image": "/agents/incident-response-agent.png"
+          "image": "/agents/obsidian-arc-incident-response-agent.png"
         },
         {
           "id": "agent-obsidian-arc-7",
@@ -19842,7 +19842,7 @@
           "relationships": [
             "mesh",
             "content-moderation-ai-agent",
-            "regulatory-intelligence-agent"
+            "aether-link-regulatory-intelligence-agent"
           ],
           "useCases": [
             "Aether Link command routing",
@@ -20015,7 +20015,7 @@
           "relationships": [
             "mesh",
             "translation-quality-agent",
-            "analytics-intelligence-agent"
+            "aether-link-analytics-intelligence-agent"
           ],
           "useCases": [
             "Aether Link command routing",
@@ -20072,7 +20072,7 @@
           ],
           "relationships": [
             "mesh",
-            "regulatory-intelligence-agent",
+            "aether-link-regulatory-intelligence-agent",
             "zero-point-energy-research-agent"
           ],
           "useCases": [
@@ -20088,7 +20088,7 @@
         },
         {
           "id": "agent-aether-link-12",
-          "slug": "regulatory-intelligence-agent",
+          "slug": "aether-link-regulatory-intelligence-agent",
           "name": "Regulatory Intelligence Agent",
           "divisionSlug": "aether-link",
           "divisionName": "Aether Link",
@@ -20142,7 +20142,7 @@
           "compatibilityScore": 97,
           "effectivenessScore": 80,
           "executionComplexity": 84,
-          "image": "/agents/regulatory-intelligence-agent.png"
+          "image": "/agents/aether-link-regulatory-intelligence-agent.png"
         },
         {
           "id": "agent-aether-link-13",
@@ -20187,7 +20187,7 @@
           "relationships": [
             "mesh",
             "platform-localization-agent",
-            "partnership-development-agent"
+            "aether-link-partnership-development-agent"
           ],
           "useCases": [
             "Aether Link command routing",
@@ -20242,7 +20242,7 @@
           ],
           "relationships": [
             "mesh",
-            "analytics-intelligence-agent",
+            "aether-link-analytics-intelligence-agent",
             "user-privacy-agent"
           ],
           "useCases": [
@@ -20258,7 +20258,7 @@
         },
         {
           "id": "agent-aether-link-15",
-          "slug": "analytics-intelligence-agent",
+          "slug": "aether-link-analytics-intelligence-agent",
           "name": "Analytics Intelligence Agent",
           "divisionSlug": "aether-link",
           "divisionName": "Aether Link",
@@ -20311,7 +20311,7 @@
           "compatibilityScore": 74,
           "effectivenessScore": 81,
           "executionComplexity": 48,
-          "image": "/agents/analytics-intelligence-agent.png"
+          "image": "/agents/aether-link-analytics-intelligence-agent.png"
         },
         {
           "id": "agent-aether-link-16",
@@ -20356,7 +20356,7 @@
           "relationships": [
             "mesh",
             "developer-ecosystem-agent",
-            "international-expansion-agent"
+            "aether-link-international-expansion-agent"
           ],
           "useCases": [
             "Aether Link command routing",
@@ -20410,7 +20410,7 @@
           ],
           "relationships": [
             "mesh",
-            "partnership-development-agent",
+            "aether-link-partnership-development-agent",
             "content-integrity-platform-agent"
           ],
           "useCases": [
@@ -20426,7 +20426,7 @@
         },
         {
           "id": "agent-aether-link-18",
-          "slug": "partnership-development-agent",
+          "slug": "aether-link-partnership-development-agent",
           "name": "Partnership Development Agent",
           "divisionSlug": "aether-link",
           "divisionName": "Aether Link",
@@ -20477,7 +20477,7 @@
           "compatibilityScore": 73,
           "effectivenessScore": 83,
           "executionComplexity": 61,
-          "image": "/agents/partnership-development-agent.png"
+          "image": "/agents/aether-link-partnership-development-agent.png"
         },
         {
           "id": "agent-aether-link-19",
@@ -20581,7 +20581,7 @@
           ],
           "relationships": [
             "mesh",
-            "international-expansion-agent",
+            "aether-link-international-expansion-agent",
             "mesh-network-expansion-agent"
           ],
           "useCases": [
@@ -20597,7 +20597,7 @@
         },
         {
           "id": "agent-aether-link-21",
-          "slug": "international-expansion-agent",
+          "slug": "aether-link-international-expansion-agent",
           "name": "International Expansion Agent",
           "divisionSlug": "aether-link",
           "divisionName": "Aether Link",
@@ -20649,7 +20649,7 @@
           "compatibilityScore": 85,
           "effectivenessScore": 73,
           "executionComplexity": 50,
-          "image": "/agents/international-expansion-agent.png"
+          "image": "/agents/aether-link-international-expansion-agent.png"
         },
         {
           "id": "agent-aether-link-22",
@@ -21263,7 +21263,7 @@
           "relationships": [
             "gaia",
             "field-robotics-coordinator",
-            "synthetic-biology-research-agent"
+            "gaia-synthesis-synthetic-biology-research-agent"
           ],
           "useCases": [
             "Gaia Synthesis command routing",
@@ -21495,7 +21495,7 @@
           ],
           "relationships": [
             "gaia",
-            "synthetic-biology-research-agent",
+            "gaia-synthesis-synthetic-biology-research-agent",
             "climate-resilience-agent"
           ],
           "useCases": [
@@ -21511,7 +21511,7 @@
         },
         {
           "id": "agent-gaia-synthesis-6",
-          "slug": "synthetic-biology-research-agent",
+          "slug": "gaia-synthesis-synthetic-biology-research-agent",
           "name": "Synthetic Biology Research Agent",
           "divisionSlug": "gaia-synthesis",
           "divisionName": "Gaia Synthesis",
@@ -21563,7 +21563,7 @@
           "compatibilityScore": 79,
           "effectivenessScore": 89,
           "executionComplexity": 91,
-          "image": "/agents/synthetic-biology-research-agent.png"
+          "image": "/agents/gaia-synthesis-synthetic-biology-research-agent.png"
         },
         {
           "id": "agent-gaia-synthesis-7",
@@ -23721,7 +23721,7 @@
           "relationships": [
             "vector",
             "supply-chain-integration-agent",
-            "analytics-intelligence-agent"
+            "vector-shift-analytics-intelligence-agent"
           ],
           "useCases": [
             "Vector Shift command routing",
@@ -23946,8 +23946,8 @@
           ],
           "relationships": [
             "vector",
-            "analytics-intelligence-agent",
-            "competitive-intelligence-agent"
+            "vector-shift-analytics-intelligence-agent",
+            "vector-shift-competitive-intelligence-agent"
           ],
           "useCases": [
             "Vector Shift command routing",
@@ -23962,7 +23962,7 @@
         },
         {
           "id": "agent-vector-shift-18",
-          "slug": "analytics-intelligence-agent",
+          "slug": "vector-shift-analytics-intelligence-agent",
           "name": "Analytics Intelligence Agent",
           "divisionSlug": "vector-shift",
           "divisionName": "Vector Shift",
@@ -24016,7 +24016,7 @@
           "compatibilityScore": 89,
           "effectivenessScore": 83,
           "executionComplexity": 56,
-          "image": "/agents/analytics-intelligence-agent.png"
+          "image": "/agents/vector-shift-analytics-intelligence-agent.png"
         },
         {
           "id": "agent-vector-shift-19",
@@ -24174,7 +24174,7 @@
           ],
           "relationships": [
             "vector",
-            "competitive-intelligence-agent",
+            "vector-shift-competitive-intelligence-agent",
             "revenue-operations-agent"
           ],
           "useCases": [
@@ -24190,7 +24190,7 @@
         },
         {
           "id": "agent-vector-shift-22",
-          "slug": "competitive-intelligence-agent",
+          "slug": "vector-shift-competitive-intelligence-agent",
           "name": "Competitive Intelligence Agent",
           "divisionSlug": "vector-shift",
           "divisionName": "Vector Shift",
@@ -24242,7 +24242,7 @@
           "compatibilityScore": 77,
           "effectivenessScore": 80,
           "executionComplexity": 79,
-          "image": "/agents/competitive-intelligence-agent.png"
+          "image": "/agents/vector-shift-competitive-intelligence-agent.png"
         },
         {
           "id": "agent-vector-shift-23",
@@ -25258,7 +25258,7 @@
           "relationships": [
             "prime",
             "robot-simulation-agent",
-            "quality-assurance-agent"
+            "animus-prime-quality-assurance-agent"
           ],
           "useCases": [
             "Animus Prime command routing",
@@ -25431,7 +25431,7 @@
           "relationships": [
             "prime",
             "robotics-ethics-agent",
-            "energy-efficiency-agent"
+            "animus-prime-energy-efficiency-agent"
           ],
           "useCases": [
             "Animus Prime command routing",
@@ -25487,7 +25487,7 @@
           ],
           "relationships": [
             "prime",
-            "quality-assurance-agent",
+            "animus-prime-quality-assurance-agent",
             "robotics-market-intelligence-agent"
           ],
           "useCases": [
@@ -25503,7 +25503,7 @@
         },
         {
           "id": "agent-animus-prime-14",
-          "slug": "quality-assurance-agent",
+          "slug": "animus-prime-quality-assurance-agent",
           "name": "Quality Assurance Agent",
           "divisionSlug": "animus-prime",
           "divisionName": "Animus Prime",
@@ -25557,7 +25557,7 @@
           "compatibilityScore": 78,
           "effectivenessScore": 82,
           "executionComplexity": 52,
-          "image": "/agents/quality-assurance-agent.png"
+          "image": "/agents/animus-prime-quality-assurance-agent.png"
         },
         {
           "id": "agent-animus-prime-15",
@@ -25660,7 +25660,7 @@
           ],
           "relationships": [
             "prime",
-            "energy-efficiency-agent",
+            "animus-prime-energy-efficiency-agent",
             "control-systems-agent"
           ],
           "useCases": [
@@ -25676,7 +25676,7 @@
         },
         {
           "id": "agent-animus-prime-17",
-          "slug": "energy-efficiency-agent",
+          "slug": "animus-prime-energy-efficiency-agent",
           "name": "Energy Efficiency Agent",
           "divisionSlug": "animus-prime",
           "divisionName": "Animus Prime",
@@ -25730,7 +25730,7 @@
           "compatibilityScore": 82,
           "effectivenessScore": 76,
           "executionComplexity": 90,
-          "image": "/agents/energy-efficiency-agent.png"
+          "image": "/agents/animus-prime-energy-efficiency-agent.png"
         },
         {
           "id": "agent-animus-prime-18",
@@ -26641,7 +26641,7 @@
           ],
           "relationships": [
             "juris",
-            "regulatory-intelligence-agent",
+            "juris-guard-regulatory-intelligence-agent",
             "corporate-governance-agent"
           ],
           "useCases": [
@@ -26657,7 +26657,7 @@
         },
         {
           "id": "agent-juris-guard-3",
-          "slug": "regulatory-intelligence-agent",
+          "slug": "juris-guard-regulatory-intelligence-agent",
           "name": "Regulatory Intelligence Agent",
           "divisionSlug": "juris-guard",
           "divisionName": "Juris Guard",
@@ -26712,7 +26712,7 @@
           "compatibilityScore": 93,
           "effectivenessScore": 70,
           "executionComplexity": 71,
-          "image": "/agents/regulatory-intelligence-agent.png"
+          "image": "/agents/juris-guard-regulatory-intelligence-agent.png"
         },
         {
           "id": "agent-juris-guard-4",
@@ -26760,7 +26760,7 @@
           "relationships": [
             "juris",
             "employment-law-agent",
-            "compliance-training-agent"
+            "juris-guard-compliance-training-agent"
           ],
           "useCases": [
             "Juris Guard command routing",
@@ -26985,7 +26985,7 @@
           ],
           "relationships": [
             "juris",
-            "compliance-training-agent",
+            "juris-guard-compliance-training-agent",
             "securities-law-agent"
           ],
           "useCases": [
@@ -27001,7 +27001,7 @@
         },
         {
           "id": "agent-juris-guard-9",
-          "slug": "compliance-training-agent",
+          "slug": "juris-guard-compliance-training-agent",
           "name": "Compliance Training Agent",
           "divisionSlug": "juris-guard",
           "divisionName": "Juris Guard",
@@ -27056,7 +27056,7 @@
           "compatibilityScore": 92,
           "effectivenessScore": 95,
           "executionComplexity": 31,
-          "image": "/agents/compliance-training-agent.png"
+          "image": "/agents/juris-guard-compliance-training-agent.png"
         },
         {
           "id": "agent-juris-guard-10",
@@ -28141,7 +28141,7 @@
           "relationships": [
             "juris",
             "document-automation-agent",
-            "regulatory-intelligence-agent"
+            "juris-guard-regulatory-intelligence-agent"
           ],
           "useCases": [
             "Juris Guard command routing",
@@ -28487,7 +28487,7 @@
           ],
           "relationships": [
             "signal",
-            "content-distribution-agent",
+            "signal-velocity-content-distribution-agent",
             "influencer-marketing-agent"
           ],
           "useCases": [
@@ -28503,7 +28503,7 @@
         },
         {
           "id": "agent-signal-velocity-4",
-          "slug": "content-distribution-agent",
+          "slug": "signal-velocity-content-distribution-agent",
           "name": "Content Distribution Agent",
           "divisionSlug": "signal-velocity",
           "divisionName": "Signal Velocity",
@@ -28546,7 +28546,7 @@
           ],
           "relationships": [
             "signal",
-            "seo-intelligence-agent",
+            "signal-velocity-seo-intelligence-agent",
             "demand-generation-agent"
           ],
           "useCases": [
@@ -28558,11 +28558,11 @@
           "compatibilityScore": 96,
           "effectivenessScore": 74,
           "executionComplexity": 61,
-          "image": "/agents/content-distribution-agent.png"
+          "image": "/agents/signal-velocity-content-distribution-agent.png"
         },
         {
           "id": "agent-signal-velocity-5",
-          "slug": "seo-intelligence-agent",
+          "slug": "signal-velocity-seo-intelligence-agent",
           "name": "SEO Intelligence Agent",
           "divisionSlug": "signal-velocity",
           "divisionName": "Signal Velocity",
@@ -28617,7 +28617,7 @@
           "compatibilityScore": 94,
           "effectivenessScore": 78,
           "executionComplexity": 86,
-          "image": "/agents/seo-intelligence-agent.png"
+          "image": "/agents/signal-velocity-seo-intelligence-agent.png"
         },
         {
           "id": "agent-signal-velocity-6",
@@ -29991,7 +29991,7 @@
           "relationships": [
             "signal",
             "paid-search-agent",
-            "content-distribution-agent"
+            "signal-velocity-content-distribution-agent"
           ],
           "useCases": [
             "Signal Velocity command routing",
@@ -30048,7 +30048,7 @@
           "relationships": [
             "signal",
             "paid-media-strategy-agent",
-            "seo-intelligence-agent"
+            "signal-velocity-seo-intelligence-agent"
           ],
           "useCases": [
             "Signal Velocity command routing",
@@ -30332,7 +30332,7 @@
           ],
           "relationships": [
             "nomad",
-            "tax-intelligence-agent",
+            "nomad-nexus-tax-intelligence-agent",
             "connectivity-infrastructure-agent"
           ],
           "useCases": [
@@ -30348,7 +30348,7 @@
         },
         {
           "id": "agent-nomad-nexus-5",
-          "slug": "tax-intelligence-agent",
+          "slug": "nomad-nexus-tax-intelligence-agent",
           "name": "Tax Intelligence Agent",
           "divisionSlug": "nomad-nexus",
           "divisionName": "Nomad Nexus",
@@ -30401,7 +30401,7 @@
           "compatibilityScore": 74,
           "effectivenessScore": 71,
           "executionComplexity": 71,
-          "image": "/agents/tax-intelligence-agent.png"
+          "image": "/agents/nomad-nexus-tax-intelligence-agent.png"
         },
         {
           "id": "agent-nomad-nexus-6",
@@ -31795,7 +31795,7 @@
           "relationships": [
             "nomad",
             "visa-intelligence-agent",
-            "tax-intelligence-agent"
+            "nomad-nexus-tax-intelligence-agent"
           ],
           "useCases": [
             "Nomad Nexus command routing",
@@ -32930,7 +32930,7 @@
           "relationships": [
             "eon",
             "social-connection-longevity-agent",
-            "sleep-optimization-agent"
+            "eon-core-sleep-optimization-agent"
           ],
           "useCases": [
             "Eon Core command routing",
@@ -33154,7 +33154,7 @@
           ],
           "relationships": [
             "eon",
-            "sleep-optimization-agent",
+            "eon-core-sleep-optimization-agent",
             "longevity-mindset-agent"
           ],
           "useCases": [
@@ -33170,7 +33170,7 @@
         },
         {
           "id": "agent-eon-core-24",
-          "slug": "sleep-optimization-agent",
+          "slug": "eon-core-sleep-optimization-agent",
           "name": "Sleep Optimization Agent",
           "divisionSlug": "eon-core",
           "divisionName": "Eon Core",
@@ -33223,7 +33223,7 @@
           "compatibilityScore": 98,
           "effectivenessScore": 82,
           "executionComplexity": 79,
-          "image": "/agents/sleep-optimization-agent.png"
+          "image": "/agents/eon-core-sleep-optimization-agent.png"
         },
         {
           "id": "agent-eon-core-25",
@@ -37301,7 +37301,7 @@
       "relationships": [
         "vantage",
         "sow-generator",
-        "competitive-intelligence-agent"
+        "the-collective-competitive-intelligence-agent"
       ],
       "useCases": [
         "The Collective command routing",
@@ -37524,7 +37524,7 @@
       ],
       "relationships": [
         "vantage",
-        "competitive-intelligence-agent",
+        "the-collective-competitive-intelligence-agent",
         "enterprise-diagnostic-agent"
       ],
       "useCases": [
@@ -37540,7 +37540,7 @@
     },
     {
       "id": "agent-the-collective-9",
-      "slug": "competitive-intelligence-agent",
+      "slug": "the-collective-competitive-intelligence-agent",
       "name": "Competitive Intelligence Agent",
       "divisionSlug": "the-collective",
       "divisionName": "The Collective",
@@ -37591,7 +37591,7 @@
       "compatibilityScore": 88,
       "effectivenessScore": 85,
       "executionComplexity": 87,
-      "image": "/agents/competitive-intelligence-agent.png"
+      "image": "/agents/the-collective-competitive-intelligence-agent.png"
     },
     {
       "id": "agent-the-collective-10",
@@ -38208,7 +38208,7 @@
       "relationships": [
         "vantage",
         "onboarding-experience-agent",
-        "partnership-development-agent"
+        "the-collective-partnership-development-agent"
       ],
       "useCases": [
         "The Collective command routing",
@@ -38264,7 +38264,7 @@
       "relationships": [
         "vantage",
         "executive-briefing-agent",
-        "quality-assurance-agent"
+        "the-collective-quality-assurance-agent"
       ],
       "useCases": [
         "The Collective command routing",
@@ -38432,7 +38432,7 @@
       ],
       "relationships": [
         "vantage",
-        "partnership-development-agent",
+        "the-collective-partnership-development-agent",
         "market-expansion-agent"
       ],
       "useCases": [
@@ -38448,7 +38448,7 @@
     },
     {
       "id": "agent-the-collective-25",
-      "slug": "partnership-development-agent",
+      "slug": "the-collective-partnership-development-agent",
       "name": "Partnership Development Agent",
       "divisionSlug": "the-collective",
       "divisionName": "The Collective",
@@ -38489,7 +38489,7 @@
       ],
       "relationships": [
         "vantage",
-        "quality-assurance-agent",
+        "the-collective-quality-assurance-agent",
         "testimonial-and-social-proof-agent"
       ],
       "useCases": [
@@ -38501,11 +38501,11 @@
       "compatibilityScore": 79,
       "effectivenessScore": 85,
       "executionComplexity": 44,
-      "image": "/agents/partnership-development-agent.png"
+      "image": "/agents/the-collective-partnership-development-agent.png"
     },
     {
       "id": "agent-the-collective-26",
-      "slug": "quality-assurance-agent",
+      "slug": "the-collective-quality-assurance-agent",
       "name": "Quality Assurance Agent",
       "divisionSlug": "the-collective",
       "divisionName": "The Collective",
@@ -38558,7 +38558,7 @@
       "compatibilityScore": 83,
       "effectivenessScore": 92,
       "executionComplexity": 48,
-      "image": "/agents/quality-assurance-agent.png"
+      "image": "/agents/the-collective-quality-assurance-agent.png"
     },
     {
       "id": "agent-the-collective-27",
@@ -40012,7 +40012,7 @@
       "relationships": [
         "atlas",
         "learning-path-architect",
-        "compliance-training-agent"
+        "hybrid-living-compliance-training-agent"
       ],
       "useCases": [
         "Hybrid Living command routing",
@@ -40122,7 +40122,7 @@
       "relationships": [
         "atlas",
         "revenue-intelligence-agent",
-        "international-expansion-agent"
+        "hybrid-living-international-expansion-agent"
       ],
       "useCases": [
         "Hybrid Living command routing",
@@ -40232,7 +40232,7 @@
       ],
       "relationships": [
         "atlas",
-        "compliance-training-agent",
+        "hybrid-living-compliance-training-agent",
         "curriculum-architect"
       ],
       "useCases": [
@@ -40248,7 +40248,7 @@
     },
     {
       "id": "agent-hybrid-living-27",
-      "slug": "compliance-training-agent",
+      "slug": "hybrid-living-compliance-training-agent",
       "name": "Compliance Training Agent",
       "divisionSlug": "hybrid-living",
       "divisionName": "Hybrid Living",
@@ -40303,7 +40303,7 @@
       "compatibilityScore": 94,
       "effectivenessScore": 86,
       "executionComplexity": 37,
-      "image": "/agents/compliance-training-agent.png"
+      "image": "/agents/hybrid-living-compliance-training-agent.png"
     },
     {
       "id": "agent-hybrid-living-28",
@@ -40346,7 +40346,7 @@
       ],
       "relationships": [
         "atlas",
-        "international-expansion-agent",
+        "hybrid-living-international-expansion-agent",
         "content-producer"
       ],
       "useCases": [
@@ -40362,7 +40362,7 @@
     },
     {
       "id": "agent-hybrid-living-29",
-      "slug": "international-expansion-agent",
+      "slug": "hybrid-living-international-expansion-agent",
       "name": "International Expansion Agent",
       "divisionSlug": "hybrid-living",
       "divisionName": "Hybrid Living",
@@ -40416,7 +40416,7 @@
       "compatibilityScore": 96,
       "effectivenessScore": 71,
       "executionComplexity": 52,
-      "image": "/agents/international-expansion-agent.png"
+      "image": "/agents/hybrid-living-international-expansion-agent.png"
     },
     {
       "id": "agent-hybrid-living-30",
@@ -40631,7 +40631,7 @@
       "relationships": [
         "prism",
         "skool-community-manager",
-        "seo-intelligence-agent"
+        "nexus-labs-seo-intelligence-agent"
       ],
       "useCases": [
         "Nexus Labs command routing",
@@ -40742,7 +40742,7 @@
       "relationships": [
         "prism",
         "video-production-agent",
-        "content-distribution-agent"
+        "nexus-labs-content-distribution-agent"
       ],
       "useCases": [
         "Nexus Labs command routing",
@@ -40854,7 +40854,7 @@
       ],
       "relationships": [
         "prism",
-        "seo-intelligence-agent",
+        "nexus-labs-seo-intelligence-agent",
         "podcast-guest-coordinator"
       ],
       "useCases": [
@@ -40870,7 +40870,7 @@
     },
     {
       "id": "agent-nexus-labs-8",
-      "slug": "seo-intelligence-agent",
+      "slug": "nexus-labs-seo-intelligence-agent",
       "name": "SEO Intelligence Agent",
       "divisionSlug": "nexus-labs",
       "divisionName": "Nexus Labs",
@@ -40923,7 +40923,7 @@
       "compatibilityScore": 75,
       "effectivenessScore": 72,
       "executionComplexity": 58,
-      "image": "/agents/seo-intelligence-agent.png"
+      "image": "/agents/nexus-labs-seo-intelligence-agent.png"
     },
     {
       "id": "agent-nexus-labs-9",
@@ -40966,7 +40966,7 @@
       ],
       "relationships": [
         "prism",
-        "content-distribution-agent",
+        "nexus-labs-content-distribution-agent",
         "events-production-agent"
       ],
       "useCases": [
@@ -40982,7 +40982,7 @@
     },
     {
       "id": "agent-nexus-labs-10",
-      "slug": "content-distribution-agent",
+      "slug": "nexus-labs-content-distribution-agent",
       "name": "Content Distribution Agent",
       "divisionSlug": "nexus-labs",
       "divisionName": "Nexus Labs",
@@ -41036,7 +41036,7 @@
       "compatibilityScore": 96,
       "effectivenessScore": 89,
       "executionComplexity": 64,
-      "image": "/agents/content-distribution-agent.png"
+      "image": "/agents/nexus-labs-content-distribution-agent.png"
     },
     {
       "id": "agent-nexus-labs-11",
@@ -42831,7 +42831,7 @@
       "relationships": [
         "terra",
         "property-acquisition-analyst",
-        "energy-efficiency-agent"
+        "terra-axis-energy-efficiency-agent"
       ],
       "useCases": [
         "Terra Axis command routing",
@@ -43059,7 +43059,7 @@
       ],
       "relationships": [
         "terra",
-        "energy-efficiency-agent",
+        "terra-axis-energy-efficiency-agent",
         "property-tax-optimization-agent"
       ],
       "useCases": [
@@ -43075,7 +43075,7 @@
     },
     {
       "id": "agent-terra-axis-17",
-      "slug": "energy-efficiency-agent",
+      "slug": "terra-axis-energy-efficiency-agent",
       "name": "Energy Efficiency Agent",
       "divisionSlug": "terra-axis",
       "divisionName": "Terra Axis",
@@ -43128,7 +43128,7 @@
       "compatibilityScore": 76,
       "effectivenessScore": 74,
       "executionComplexity": 55,
-      "image": "/agents/energy-efficiency-agent.png"
+      "image": "/agents/terra-axis-energy-efficiency-agent.png"
     },
     {
       "id": "agent-terra-axis-18",
@@ -44086,7 +44086,7 @@
       "relationships": [
         "helix",
         "clinical-partner-liaison-agent",
-        "synthetic-biology-research-agent"
+        "vital-helix-synthetic-biology-research-agent"
       ],
       "useCases": [
         "Vital Helix command routing",
@@ -44317,7 +44317,7 @@
       ],
       "relationships": [
         "helix",
-        "synthetic-biology-research-agent",
+        "vital-helix-synthetic-biology-research-agent",
         "wearable-integration-agent"
       ],
       "useCases": [
@@ -44333,7 +44333,7 @@
     },
     {
       "id": "agent-vital-helix-9",
-      "slug": "synthetic-biology-research-agent",
+      "slug": "vital-helix-synthetic-biology-research-agent",
       "name": "Synthetic Biology Research Agent",
       "divisionSlug": "vital-helix",
       "divisionName": "Vital Helix",
@@ -44386,7 +44386,7 @@
       "compatibilityScore": 78,
       "effectivenessScore": 72,
       "executionComplexity": 32,
-      "image": "/agents/synthetic-biology-research-agent.png"
+      "image": "/agents/vital-helix-synthetic-biology-research-agent.png"
     },
     {
       "id": "agent-vital-helix-10",
@@ -44544,7 +44544,7 @@
       "relationships": [
         "helix",
         "wearable-integration-agent",
-        "sleep-optimization-agent"
+        "vital-helix-sleep-optimization-agent"
       ],
       "useCases": [
         "Vital Helix command routing",
@@ -44602,7 +44602,7 @@
       "relationships": [
         "helix",
         "genomics-analysis-agent",
-        "nutrition-intelligence-agent"
+        "vital-helix-nutrition-intelligence-agent"
       ],
       "useCases": [
         "Vital Helix command routing",
@@ -44717,7 +44717,7 @@
       "relationships": [
         "helix",
         "prescription-intelligence-agent",
-        "regulatory-intelligence-agent"
+        "vital-helix-regulatory-intelligence-agent"
       ],
       "useCases": [
         "Vital Helix command routing",
@@ -44773,7 +44773,7 @@
       ],
       "relationships": [
         "helix",
-        "sleep-optimization-agent",
+        "vital-helix-sleep-optimization-agent",
         "clinical-outcomes-researcher"
       ],
       "useCases": [
@@ -44789,7 +44789,7 @@
     },
     {
       "id": "agent-vital-helix-17",
-      "slug": "sleep-optimization-agent",
+      "slug": "vital-helix-sleep-optimization-agent",
       "name": "Sleep Optimization Agent",
       "divisionSlug": "vital-helix",
       "divisionName": "Vital Helix",
@@ -44831,7 +44831,7 @@
       ],
       "relationships": [
         "helix",
-        "nutrition-intelligence-agent",
+        "vital-helix-nutrition-intelligence-agent",
         "supplement-intelligence-agent"
       ],
       "useCases": [
@@ -44843,11 +44843,11 @@
       "compatibilityScore": 97,
       "effectivenessScore": 92,
       "executionComplexity": 88,
-      "image": "/agents/sleep-optimization-agent.png"
+      "image": "/agents/vital-helix-sleep-optimization-agent.png"
     },
     {
       "id": "agent-vital-helix-18",
-      "slug": "nutrition-intelligence-agent",
+      "slug": "vital-helix-nutrition-intelligence-agent",
       "name": "Nutrition Intelligence Agent",
       "divisionSlug": "vital-helix",
       "divisionName": "Vital Helix",
@@ -44901,7 +44901,7 @@
       "compatibilityScore": 91,
       "effectivenessScore": 95,
       "executionComplexity": 67,
-      "image": "/agents/nutrition-intelligence-agent.png"
+      "image": "/agents/vital-helix-nutrition-intelligence-agent.png"
     },
     {
       "id": "agent-vital-helix-19",
@@ -44945,7 +44945,7 @@
       ],
       "relationships": [
         "helix",
-        "regulatory-intelligence-agent",
+        "vital-helix-regulatory-intelligence-agent",
         "patient-engagement-agent"
       ],
       "useCases": [
@@ -44961,7 +44961,7 @@
     },
     {
       "id": "agent-vital-helix-20",
-      "slug": "regulatory-intelligence-agent",
+      "slug": "vital-helix-regulatory-intelligence-agent",
       "name": "Regulatory Intelligence Agent",
       "divisionSlug": "vital-helix",
       "divisionName": "Vital Helix",
@@ -45013,7 +45013,7 @@
       "compatibilityScore": 87,
       "effectivenessScore": 78,
       "executionComplexity": 40,
-      "image": "/agents/regulatory-intelligence-agent.png"
+      "image": "/agents/vital-helix-regulatory-intelligence-agent.png"
     },
     {
       "id": "agent-vital-helix-21",
@@ -45743,7 +45743,7 @@
       "relationships": [
         "loom",
         "devops-pipeline-agent",
-        "incident-response-agent"
+        "binary-loom-incident-response-agent"
       ],
       "useCases": [
         "Binary Loom command routing",
@@ -45967,7 +45967,7 @@
       ],
       "relationships": [
         "loom",
-        "incident-response-agent",
+        "binary-loom-incident-response-agent",
         "data-privacy-and-governance-agent"
       ],
       "useCases": [
@@ -45983,7 +45983,7 @@
     },
     {
       "id": "agent-binary-loom-8",
-      "slug": "incident-response-agent",
+      "slug": "binary-loom-incident-response-agent",
       "name": "Incident Response Agent",
       "divisionSlug": "binary-loom",
       "divisionName": "Binary Loom",
@@ -46034,7 +46034,7 @@
       "compatibilityScore": 94,
       "effectivenessScore": 89,
       "executionComplexity": 29,
-      "image": "/agents/incident-response-agent.png"
+      "image": "/agents/binary-loom-incident-response-agent.png"
     },
     {
       "id": "agent-binary-loom-9",
@@ -47893,7 +47893,7 @@
       "relationships": [
         "ledger",
         "market-intelligence-agent",
-        "tax-intelligence-agent"
+        "quantum-ledger-tax-intelligence-agent"
       ],
       "useCases": [
         "Quantum Ledger command routing",
@@ -48121,7 +48121,7 @@
       ],
       "relationships": [
         "ledger",
-        "tax-intelligence-agent",
+        "quantum-ledger-tax-intelligence-agent",
         "cross-asset-correlation-agent"
       ],
       "useCases": [
@@ -48137,7 +48137,7 @@
     },
     {
       "id": "agent-quantum-ledger-16",
-      "slug": "tax-intelligence-agent",
+      "slug": "quantum-ledger-tax-intelligence-agent",
       "name": "Tax Intelligence Agent",
       "divisionSlug": "quantum-ledger",
       "divisionName": "Quantum Ledger",
@@ -48189,7 +48189,7 @@
       "compatibilityScore": 81,
       "effectivenessScore": 71,
       "executionComplexity": 65,
-      "image": "/agents/tax-intelligence-agent.png"
+      "image": "/agents/quantum-ledger-tax-intelligence-agent.png"
     },
     {
       "id": "agent-quantum-ledger-17",
@@ -49197,7 +49197,7 @@
       "relationships": [
         "apex",
         "sports-data-intelligence-agent",
-        "nutrition-intelligence-agent"
+        "kinetic-edge-nutrition-intelligence-agent"
       ],
       "useCases": [
         "Kinetic Edge command routing",
@@ -49428,7 +49428,7 @@
       ],
       "relationships": [
         "apex",
-        "nutrition-intelligence-agent",
+        "kinetic-edge-nutrition-intelligence-agent",
         "scouting-intelligence-agent"
       ],
       "useCases": [
@@ -49444,7 +49444,7 @@
     },
     {
       "id": "agent-kinetic-edge-9",
-      "slug": "nutrition-intelligence-agent",
+      "slug": "kinetic-edge-nutrition-intelligence-agent",
       "name": "Nutrition Intelligence Agent",
       "divisionSlug": "kinetic-edge",
       "divisionName": "Kinetic Edge",
@@ -49496,7 +49496,7 @@
       "compatibilityScore": 75,
       "effectivenessScore": 79,
       "executionComplexity": 42,
-      "image": "/agents/nutrition-intelligence-agent.png"
+      "image": "/agents/kinetic-edge-nutrition-intelligence-agent.png"
     },
     {
       "id": "agent-kinetic-edge-10",
@@ -49659,7 +49659,7 @@
       "relationships": [
         "apex",
         "scouting-intelligence-agent",
-        "sports-science-research-agent"
+        "kinetic-edge-sports-science-research-agent"
       ],
       "useCases": [
         "Kinetic Edge command routing",
@@ -49890,7 +49890,7 @@
       ],
       "relationships": [
         "apex",
-        "sports-science-research-agent",
+        "kinetic-edge-sports-science-research-agent",
         "devon-scott-liaison-agent"
       ],
       "useCases": [
@@ -49906,7 +49906,7 @@
     },
     {
       "id": "agent-kinetic-edge-17",
-      "slug": "sports-science-research-agent",
+      "slug": "kinetic-edge-sports-science-research-agent",
       "name": "Sports Science Research Agent",
       "divisionSlug": "kinetic-edge",
       "divisionName": "Kinetic Edge",
@@ -49959,7 +49959,7 @@
       "compatibilityScore": 92,
       "effectivenessScore": 83,
       "executionComplexity": 81,
-      "image": "/agents/sports-science-research-agent.png"
+      "image": "/agents/kinetic-edge-sports-science-research-agent.png"
     },
     {
       "id": "agent-kinetic-edge-18",
@@ -50410,7 +50410,7 @@
       "relationships": [
         "apex",
         "coaching-ai-partner-agent",
-        "sports-science-research-agent"
+        "kinetic-edge-sports-science-research-agent-2"
       ],
       "useCases": [
         "Kinetic Edge command routing",
@@ -50636,7 +50636,7 @@
       ],
       "relationships": [
         "apex",
-        "sports-science-research-agent",
+        "kinetic-edge-sports-science-research-agent-2",
         "kinetic-iq-consumer-agent"
       ],
       "useCases": [
@@ -50652,7 +50652,7 @@
     },
     {
       "id": "agent-kinetic-edge-30",
-      "slug": "sports-science-research-agent",
+      "slug": "kinetic-edge-sports-science-research-agent-2",
       "name": "Sports Science Research Agent",
       "divisionSlug": "kinetic-edge",
       "divisionName": "Kinetic Edge",
@@ -50706,7 +50706,7 @@
       "compatibilityScore": 92,
       "effectivenessScore": 83,
       "executionComplexity": 81,
-      "image": "/agents/sports-science-research-agent.png"
+      "image": "/agents/kinetic-edge-sports-science-research-agent-2.png"
     },
     {
       "id": "agent-obsidian-arc-1",
@@ -50753,7 +50753,7 @@
       "relationships": [
         "sentinel",
         "soc-analyst-agent",
-        "incident-response-agent"
+        "obsidian-arc-incident-response-agent"
       ],
       "useCases": [
         "Obsidian Arc command routing",
@@ -50980,7 +50980,7 @@
       ],
       "relationships": [
         "sentinel",
-        "incident-response-agent",
+        "obsidian-arc-incident-response-agent",
         "security-sales-agent"
       ],
       "useCases": [
@@ -50996,7 +50996,7 @@
     },
     {
       "id": "agent-obsidian-arc-6",
-      "slug": "incident-response-agent",
+      "slug": "obsidian-arc-incident-response-agent",
       "name": "Incident Response Agent",
       "divisionSlug": "obsidian-arc",
       "divisionName": "Obsidian Arc",
@@ -51048,7 +51048,7 @@
       "compatibilityScore": 83,
       "effectivenessScore": 86,
       "executionComplexity": 33,
-      "image": "/agents/incident-response-agent.png"
+      "image": "/agents/obsidian-arc-incident-response-agent.png"
     },
     {
       "id": "agent-obsidian-arc-7",
@@ -54477,7 +54477,7 @@
       "relationships": [
         "mesh",
         "content-moderation-ai-agent",
-        "regulatory-intelligence-agent"
+        "aether-link-regulatory-intelligence-agent"
       ],
       "useCases": [
         "Aether Link command routing",
@@ -54650,7 +54650,7 @@
       "relationships": [
         "mesh",
         "translation-quality-agent",
-        "analytics-intelligence-agent"
+        "aether-link-analytics-intelligence-agent"
       ],
       "useCases": [
         "Aether Link command routing",
@@ -54707,7 +54707,7 @@
       ],
       "relationships": [
         "mesh",
-        "regulatory-intelligence-agent",
+        "aether-link-regulatory-intelligence-agent",
         "zero-point-energy-research-agent"
       ],
       "useCases": [
@@ -54723,7 +54723,7 @@
     },
     {
       "id": "agent-aether-link-12",
-      "slug": "regulatory-intelligence-agent",
+      "slug": "aether-link-regulatory-intelligence-agent",
       "name": "Regulatory Intelligence Agent",
       "divisionSlug": "aether-link",
       "divisionName": "Aether Link",
@@ -54777,7 +54777,7 @@
       "compatibilityScore": 97,
       "effectivenessScore": 80,
       "executionComplexity": 84,
-      "image": "/agents/regulatory-intelligence-agent.png"
+      "image": "/agents/aether-link-regulatory-intelligence-agent.png"
     },
     {
       "id": "agent-aether-link-13",
@@ -54822,7 +54822,7 @@
       "relationships": [
         "mesh",
         "platform-localization-agent",
-        "partnership-development-agent"
+        "aether-link-partnership-development-agent"
       ],
       "useCases": [
         "Aether Link command routing",
@@ -54877,7 +54877,7 @@
       ],
       "relationships": [
         "mesh",
-        "analytics-intelligence-agent",
+        "aether-link-analytics-intelligence-agent",
         "user-privacy-agent"
       ],
       "useCases": [
@@ -54893,7 +54893,7 @@
     },
     {
       "id": "agent-aether-link-15",
-      "slug": "analytics-intelligence-agent",
+      "slug": "aether-link-analytics-intelligence-agent",
       "name": "Analytics Intelligence Agent",
       "divisionSlug": "aether-link",
       "divisionName": "Aether Link",
@@ -54946,7 +54946,7 @@
       "compatibilityScore": 74,
       "effectivenessScore": 81,
       "executionComplexity": 48,
-      "image": "/agents/analytics-intelligence-agent.png"
+      "image": "/agents/aether-link-analytics-intelligence-agent.png"
     },
     {
       "id": "agent-aether-link-16",
@@ -54991,7 +54991,7 @@
       "relationships": [
         "mesh",
         "developer-ecosystem-agent",
-        "international-expansion-agent"
+        "aether-link-international-expansion-agent"
       ],
       "useCases": [
         "Aether Link command routing",
@@ -55045,7 +55045,7 @@
       ],
       "relationships": [
         "mesh",
-        "partnership-development-agent",
+        "aether-link-partnership-development-agent",
         "content-integrity-platform-agent"
       ],
       "useCases": [
@@ -55061,7 +55061,7 @@
     },
     {
       "id": "agent-aether-link-18",
-      "slug": "partnership-development-agent",
+      "slug": "aether-link-partnership-development-agent",
       "name": "Partnership Development Agent",
       "divisionSlug": "aether-link",
       "divisionName": "Aether Link",
@@ -55112,7 +55112,7 @@
       "compatibilityScore": 73,
       "effectivenessScore": 83,
       "executionComplexity": 61,
-      "image": "/agents/partnership-development-agent.png"
+      "image": "/agents/aether-link-partnership-development-agent.png"
     },
     {
       "id": "agent-aether-link-19",
@@ -55216,7 +55216,7 @@
       ],
       "relationships": [
         "mesh",
-        "international-expansion-agent",
+        "aether-link-international-expansion-agent",
         "mesh-network-expansion-agent"
       ],
       "useCases": [
@@ -55232,7 +55232,7 @@
     },
     {
       "id": "agent-aether-link-21",
-      "slug": "international-expansion-agent",
+      "slug": "aether-link-international-expansion-agent",
       "name": "International Expansion Agent",
       "divisionSlug": "aether-link",
       "divisionName": "Aether Link",
@@ -55284,7 +55284,7 @@
       "compatibilityScore": 85,
       "effectivenessScore": 73,
       "executionComplexity": 50,
-      "image": "/agents/international-expansion-agent.png"
+      "image": "/agents/aether-link-international-expansion-agent.png"
     },
     {
       "id": "agent-aether-link-22",
@@ -55837,7 +55837,7 @@
       "relationships": [
         "gaia",
         "field-robotics-coordinator",
-        "synthetic-biology-research-agent"
+        "gaia-synthesis-synthetic-biology-research-agent"
       ],
       "useCases": [
         "Gaia Synthesis command routing",
@@ -56069,7 +56069,7 @@
       ],
       "relationships": [
         "gaia",
-        "synthetic-biology-research-agent",
+        "gaia-synthesis-synthetic-biology-research-agent",
         "climate-resilience-agent"
       ],
       "useCases": [
@@ -56085,7 +56085,7 @@
     },
     {
       "id": "agent-gaia-synthesis-6",
-      "slug": "synthetic-biology-research-agent",
+      "slug": "gaia-synthesis-synthetic-biology-research-agent",
       "name": "Synthetic Biology Research Agent",
       "divisionSlug": "gaia-synthesis",
       "divisionName": "Gaia Synthesis",
@@ -56137,7 +56137,7 @@
       "compatibilityScore": 79,
       "effectivenessScore": 89,
       "executionComplexity": 91,
-      "image": "/agents/synthetic-biology-research-agent.png"
+      "image": "/agents/gaia-synthesis-synthetic-biology-research-agent.png"
     },
     {
       "id": "agent-gaia-synthesis-7",
@@ -58234,7 +58234,7 @@
       "relationships": [
         "vector",
         "supply-chain-integration-agent",
-        "analytics-intelligence-agent"
+        "vector-shift-analytics-intelligence-agent"
       ],
       "useCases": [
         "Vector Shift command routing",
@@ -58459,8 +58459,8 @@
       ],
       "relationships": [
         "vector",
-        "analytics-intelligence-agent",
-        "competitive-intelligence-agent"
+        "vector-shift-analytics-intelligence-agent",
+        "vector-shift-competitive-intelligence-agent"
       ],
       "useCases": [
         "Vector Shift command routing",
@@ -58475,7 +58475,7 @@
     },
     {
       "id": "agent-vector-shift-18",
-      "slug": "analytics-intelligence-agent",
+      "slug": "vector-shift-analytics-intelligence-agent",
       "name": "Analytics Intelligence Agent",
       "divisionSlug": "vector-shift",
       "divisionName": "Vector Shift",
@@ -58529,7 +58529,7 @@
       "compatibilityScore": 89,
       "effectivenessScore": 83,
       "executionComplexity": 56,
-      "image": "/agents/analytics-intelligence-agent.png"
+      "image": "/agents/vector-shift-analytics-intelligence-agent.png"
     },
     {
       "id": "agent-vector-shift-19",
@@ -58687,7 +58687,7 @@
       ],
       "relationships": [
         "vector",
-        "competitive-intelligence-agent",
+        "vector-shift-competitive-intelligence-agent",
         "revenue-operations-agent"
       ],
       "useCases": [
@@ -58703,7 +58703,7 @@
     },
     {
       "id": "agent-vector-shift-22",
-      "slug": "competitive-intelligence-agent",
+      "slug": "vector-shift-competitive-intelligence-agent",
       "name": "Competitive Intelligence Agent",
       "divisionSlug": "vector-shift",
       "divisionName": "Vector Shift",
@@ -58755,7 +58755,7 @@
       "compatibilityScore": 77,
       "effectivenessScore": 80,
       "executionComplexity": 79,
-      "image": "/agents/competitive-intelligence-agent.png"
+      "image": "/agents/vector-shift-competitive-intelligence-agent.png"
     },
     {
       "id": "agent-vector-shift-23",
@@ -59710,7 +59710,7 @@
       "relationships": [
         "prime",
         "robot-simulation-agent",
-        "quality-assurance-agent"
+        "animus-prime-quality-assurance-agent"
       ],
       "useCases": [
         "Animus Prime command routing",
@@ -59883,7 +59883,7 @@
       "relationships": [
         "prime",
         "robotics-ethics-agent",
-        "energy-efficiency-agent"
+        "animus-prime-energy-efficiency-agent"
       ],
       "useCases": [
         "Animus Prime command routing",
@@ -59939,7 +59939,7 @@
       ],
       "relationships": [
         "prime",
-        "quality-assurance-agent",
+        "animus-prime-quality-assurance-agent",
         "robotics-market-intelligence-agent"
       ],
       "useCases": [
@@ -59955,7 +59955,7 @@
     },
     {
       "id": "agent-animus-prime-14",
-      "slug": "quality-assurance-agent",
+      "slug": "animus-prime-quality-assurance-agent",
       "name": "Quality Assurance Agent",
       "divisionSlug": "animus-prime",
       "divisionName": "Animus Prime",
@@ -60009,7 +60009,7 @@
       "compatibilityScore": 78,
       "effectivenessScore": 82,
       "executionComplexity": 52,
-      "image": "/agents/quality-assurance-agent.png"
+      "image": "/agents/animus-prime-quality-assurance-agent.png"
     },
     {
       "id": "agent-animus-prime-15",
@@ -60112,7 +60112,7 @@
       ],
       "relationships": [
         "prime",
-        "energy-efficiency-agent",
+        "animus-prime-energy-efficiency-agent",
         "control-systems-agent"
       ],
       "useCases": [
@@ -60128,7 +60128,7 @@
     },
     {
       "id": "agent-animus-prime-17",
-      "slug": "energy-efficiency-agent",
+      "slug": "animus-prime-energy-efficiency-agent",
       "name": "Energy Efficiency Agent",
       "divisionSlug": "animus-prime",
       "divisionName": "Animus Prime",
@@ -60182,7 +60182,7 @@
       "compatibilityScore": 82,
       "effectivenessScore": 76,
       "executionComplexity": 90,
-      "image": "/agents/energy-efficiency-agent.png"
+      "image": "/agents/animus-prime-energy-efficiency-agent.png"
     },
     {
       "id": "agent-animus-prime-18",
@@ -61032,7 +61032,7 @@
       ],
       "relationships": [
         "juris",
-        "regulatory-intelligence-agent",
+        "juris-guard-regulatory-intelligence-agent",
         "corporate-governance-agent"
       ],
       "useCases": [
@@ -61048,7 +61048,7 @@
     },
     {
       "id": "agent-juris-guard-3",
-      "slug": "regulatory-intelligence-agent",
+      "slug": "juris-guard-regulatory-intelligence-agent",
       "name": "Regulatory Intelligence Agent",
       "divisionSlug": "juris-guard",
       "divisionName": "Juris Guard",
@@ -61103,7 +61103,7 @@
       "compatibilityScore": 93,
       "effectivenessScore": 70,
       "executionComplexity": 71,
-      "image": "/agents/regulatory-intelligence-agent.png"
+      "image": "/agents/juris-guard-regulatory-intelligence-agent.png"
     },
     {
       "id": "agent-juris-guard-4",
@@ -61151,7 +61151,7 @@
       "relationships": [
         "juris",
         "employment-law-agent",
-        "compliance-training-agent"
+        "juris-guard-compliance-training-agent"
       ],
       "useCases": [
         "Juris Guard command routing",
@@ -61376,7 +61376,7 @@
       ],
       "relationships": [
         "juris",
-        "compliance-training-agent",
+        "juris-guard-compliance-training-agent",
         "securities-law-agent"
       ],
       "useCases": [
@@ -61392,7 +61392,7 @@
     },
     {
       "id": "agent-juris-guard-9",
-      "slug": "compliance-training-agent",
+      "slug": "juris-guard-compliance-training-agent",
       "name": "Compliance Training Agent",
       "divisionSlug": "juris-guard",
       "divisionName": "Juris Guard",
@@ -61447,7 +61447,7 @@
       "compatibilityScore": 92,
       "effectivenessScore": 95,
       "executionComplexity": 31,
-      "image": "/agents/compliance-training-agent.png"
+      "image": "/agents/juris-guard-compliance-training-agent.png"
     },
     {
       "id": "agent-juris-guard-10",
@@ -62532,7 +62532,7 @@
       "relationships": [
         "juris",
         "document-automation-agent",
-        "regulatory-intelligence-agent"
+        "juris-guard-regulatory-intelligence-agent"
       ],
       "useCases": [
         "Juris Guard command routing",
@@ -62817,7 +62817,7 @@
       ],
       "relationships": [
         "signal",
-        "content-distribution-agent",
+        "signal-velocity-content-distribution-agent",
         "influencer-marketing-agent"
       ],
       "useCases": [
@@ -62833,7 +62833,7 @@
     },
     {
       "id": "agent-signal-velocity-4",
-      "slug": "content-distribution-agent",
+      "slug": "signal-velocity-content-distribution-agent",
       "name": "Content Distribution Agent",
       "divisionSlug": "signal-velocity",
       "divisionName": "Signal Velocity",
@@ -62876,7 +62876,7 @@
       ],
       "relationships": [
         "signal",
-        "seo-intelligence-agent",
+        "signal-velocity-seo-intelligence-agent",
         "demand-generation-agent"
       ],
       "useCases": [
@@ -62888,11 +62888,11 @@
       "compatibilityScore": 96,
       "effectivenessScore": 74,
       "executionComplexity": 61,
-      "image": "/agents/content-distribution-agent.png"
+      "image": "/agents/signal-velocity-content-distribution-agent.png"
     },
     {
       "id": "agent-signal-velocity-5",
-      "slug": "seo-intelligence-agent",
+      "slug": "signal-velocity-seo-intelligence-agent",
       "name": "SEO Intelligence Agent",
       "divisionSlug": "signal-velocity",
       "divisionName": "Signal Velocity",
@@ -62947,7 +62947,7 @@
       "compatibilityScore": 94,
       "effectivenessScore": 78,
       "executionComplexity": 86,
-      "image": "/agents/seo-intelligence-agent.png"
+      "image": "/agents/signal-velocity-seo-intelligence-agent.png"
     },
     {
       "id": "agent-signal-velocity-6",
@@ -64321,7 +64321,7 @@
       "relationships": [
         "signal",
         "paid-search-agent",
-        "content-distribution-agent"
+        "signal-velocity-content-distribution-agent"
       ],
       "useCases": [
         "Signal Velocity command routing",
@@ -64378,7 +64378,7 @@
       "relationships": [
         "signal",
         "paid-media-strategy-agent",
-        "seo-intelligence-agent"
+        "signal-velocity-seo-intelligence-agent"
       ],
       "useCases": [
         "Signal Velocity command routing",
@@ -64601,7 +64601,7 @@
       ],
       "relationships": [
         "nomad",
-        "tax-intelligence-agent",
+        "nomad-nexus-tax-intelligence-agent",
         "connectivity-infrastructure-agent"
       ],
       "useCases": [
@@ -64617,7 +64617,7 @@
     },
     {
       "id": "agent-nomad-nexus-5",
-      "slug": "tax-intelligence-agent",
+      "slug": "nomad-nexus-tax-intelligence-agent",
       "name": "Tax Intelligence Agent",
       "divisionSlug": "nomad-nexus",
       "divisionName": "Nomad Nexus",
@@ -64670,7 +64670,7 @@
       "compatibilityScore": 74,
       "effectivenessScore": 71,
       "executionComplexity": 71,
-      "image": "/agents/tax-intelligence-agent.png"
+      "image": "/agents/nomad-nexus-tax-intelligence-agent.png"
     },
     {
       "id": "agent-nomad-nexus-6",
@@ -66064,7 +66064,7 @@
       "relationships": [
         "nomad",
         "visa-intelligence-agent",
-        "tax-intelligence-agent"
+        "nomad-nexus-tax-intelligence-agent"
       ],
       "useCases": [
         "Nomad Nexus command routing",
@@ -67138,7 +67138,7 @@
       "relationships": [
         "eon",
         "social-connection-longevity-agent",
-        "sleep-optimization-agent"
+        "eon-core-sleep-optimization-agent"
       ],
       "useCases": [
         "Eon Core command routing",
@@ -67362,7 +67362,7 @@
       ],
       "relationships": [
         "eon",
-        "sleep-optimization-agent",
+        "eon-core-sleep-optimization-agent",
         "longevity-mindset-agent"
       ],
       "useCases": [
@@ -67378,7 +67378,7 @@
     },
     {
       "id": "agent-eon-core-24",
-      "slug": "sleep-optimization-agent",
+      "slug": "eon-core-sleep-optimization-agent",
       "name": "Sleep Optimization Agent",
       "divisionSlug": "eon-core",
       "divisionName": "Eon Core",
@@ -67431,7 +67431,7 @@
       "compatibilityScore": 98,
       "effectivenessScore": 82,
       "executionComplexity": 79,
-      "image": "/agents/sleep-optimization-agent.png"
+      "image": "/agents/eon-core-sleep-optimization-agent.png"
     },
     {
       "id": "agent-eon-core-25",
@@ -80384,7 +80384,7 @@
   "synergyNodes": [
     {
       "id": "node-1",
-      "slug": "0-phase-cascade-synergy-nodes-and-revenue-roadmap",
+      "slug": "node-1-0-phase-cascade-synergy-nodes-and-revenue-roadmap",
       "name": "0 Phase Cascade: Synergy Nodes & Revenue Roadmap",
       "participatingDivisions": [
         "zenflow",
@@ -80410,7 +80410,7 @@
     },
     {
       "id": "node-2",
-      "slug": "division-director-health-reports-aegis-violation-alerts-synergy-node-activations",
+      "slug": "node-2-division-director-health-reports-aegis-violation-alerts-synergy-node-activations",
       "name": "Division Director health reports · Aegis violation alerts · Synergy Node activations ·",
       "participatingDivisions": [
         "the-collective",
@@ -80436,7 +80436,7 @@
     },
     {
       "id": "node-3",
-      "slug": "routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions",
+      "slug": "node-3-routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions",
       "name": "Routed task assignments · Synergy Node activation instructions · Aegis enforcement actions ·",
       "participatingDivisions": [
         "hybrid-living",
@@ -80462,7 +80462,7 @@
     },
     {
       "id": "node-4",
-      "slug": "protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when",
+      "slug": "node-4-protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when",
       "name": "Protocol portfolio-wide. Activate Synergy Nodes when cross-division coordination is required. When",
       "participatingDivisions": [
         "nexus-labs",
@@ -80488,7 +80488,7 @@
     },
     {
       "id": "node-5",
-      "slug": "u-synergy-node-orchestration-activate-cross-division-execution-units-when-requests-span-departments",
+      "slug": "node-5-u-synergy-node-orchestration-activate-cross-division-execution-units-when-requests-span-departments",
       "name": "u Synergy Node orchestration: activate cross-division execution units when requests span departments",
       "participatingDivisions": [
         "terra-axis",
@@ -80514,7 +80514,7 @@
     },
     {
       "id": "node-6",
-      "slug": "revenue-model-retainer-project-fees-primary-year-1-revenue-source-funding-phase-1-synergy-nodes",
+      "slug": "node-6-revenue-model-retainer-project-fees-primary-year-1-revenue-source-funding-phase-1-synergy-nodes",
       "name": "Revenue Model Retainer + project fees. Primary Year 1 revenue source funding Phase 1 Synergy Nodes.",
       "participatingDivisions": [
         "vital-helix",
@@ -80540,7 +80540,7 @@
     },
     {
       "id": "node-7",
-      "slug": "provides-physical-nodes-server-rooms-antenna-sites-to-aether-link-animus-prime-robots",
+      "slug": "node-7-provides-physical-nodes-server-rooms-antenna-sites-to-aether-link-animus-prime-robots",
       "name": "Provides physical nodes (server rooms, antenna sites) to Aether Link. Animus Prime robots",
       "participatingDivisions": [
         "binary-loom",
@@ -80566,7 +80566,7 @@
     },
     {
       "id": "node-8",
-      "slug": "anywhere-direct-cyber-sentinel-to-monitor-all-network-traffic-isolate-compromised-nodes-via-air-gap",
+      "slug": "node-8-anywhere-direct-cyber-sentinel-to-monitor-all-network-traffic-isolate-compromised-nodes-via-air-gap",
       "name": "anywhere. Direct Cyber_Sentinel to monitor all network traffic; isolate compromised nodes via Air Gap",
       "participatingDivisions": [
         "quantum-ledger",
@@ -80592,7 +80592,7 @@
     },
     {
       "id": "node-9",
-      "slug": "satellite-backup-for-remote-terra-axis-nodes",
+      "slug": "node-9-satellite-backup-for-remote-terra-axis-nodes",
       "name": "satellite backup for remote Terra Axis nodes.",
       "participatingDivisions": [
         "kinetic-edge",
@@ -80618,7 +80618,7 @@
     },
     {
       "id": "node-10",
-      "slug": "terra-axis-aether-link-physical-node-locations-antenna-sites-and-server-room-placement-for-mesh-expansion",
+      "slug": "node-10-terra-axis-aether-link-physical-node-locations-antenna-sites-and-server-room-placement-for-mesh-expansion",
       "name": "Terra Axis Aether Link Physical node locations Antenna sites and server room placement for mesh expansion",
       "participatingDivisions": [
         "obsidian-arc",
@@ -80644,7 +80644,7 @@
     },
     {
       "id": "node-11",
-      "slug": "0-phase-cascade-synergy-nodes-and-revenue-roadmap",
+      "slug": "node-11-0-phase-cascade-synergy-nodes-and-revenue-roadmap",
       "name": "0 Phase Cascade: Synergy Nodes & Revenue Roadmap",
       "participatingDivisions": [
         "civic-core",
@@ -80670,7 +80670,7 @@
     },
     {
       "id": "node-12",
-      "slug": "the-20-synergy-nodes-are-cross-division-market-execution-units-phase-1-nodes-generate-the-revenue-that-unlocks-phase-2-phase",
+      "slug": "node-12-the-20-synergy-nodes-are-cross-division-market-execution-units-phase-1-nodes-generate-the-revenue-that-unlocks-phase-2-phase",
       "name": "The 20 Synergy Nodes are cross-division market execution units. Phase 1 nodes generate the revenue that unlocks Phase 2. Phase",
       "participatingDivisions": [
         "aether-link",
@@ -80696,7 +80696,7 @@
     },
     {
       "id": "node-13",
-      "slug": "unlocks-phase-3-phase-3-unlocks-phase-4-never-position-phase-4-nodes-as-current-priority-the-cascade-sequence-is-the",
+      "slug": "node-13-unlocks-phase-3-phase-3-unlocks-phase-4-never-position-phase-4-nodes-as-current-priority-the-cascade-sequence-is-the",
       "name": "unlocks Phase 3. Phase 3 unlocks Phase 4. Never position Phase 4 nodes as current priority. The cascade sequence is the",
       "participatingDivisions": [
         "gaia-synthesis",
@@ -80722,7 +80722,7 @@
     },
     {
       "id": "node-14",
-      "slug": "phase-nodes-target-arr-status",
+      "slug": "node-14-phase-nodes-target-arr-status",
       "name": "PHASE NODES TARGET ARR STATUS",
       "participatingDivisions": [
         "vector-shift",
@@ -80748,7 +80748,7 @@
     },
     {
       "id": "node-15",
-      "slug": "phase-3-nodes-5-60-100m-arr",
+      "slug": "node-15-phase-3-nodes-5-60-100m-arr",
       "name": "Phase 3 nodes (5) $60–100M ARR",
       "participatingDivisions": [
         "animus-prime",
@@ -80774,7 +80774,7 @@
     },
     {
       "id": "node-16",
-      "slug": "phase-4-nodes-5-200m-arr",
+      "slug": "node-16-phase-4-nodes-5-200m-arr",
       "name": "Phase 4 nodes (5) $200M+ ARR",
       "participatingDivisions": [
         "juris-guard",
@@ -80800,7 +80800,7 @@
     },
     {
       "id": "node-17",
-      "slug": "validates-products-against-real-enterprise-needs-synergy-nodes-cascade-revenue-that-funds-the-next-phase-g-cosa-s-regime",
+      "slug": "node-17-validates-products-against-real-enterprise-needs-synergy-nodes-cascade-revenue-that-funds-the-next-phase-g-cosa-s-regime",
       "name": "validates products against real enterprise needs; Synergy Nodes cascade revenue that funds the next phase; G-COSA's regime",
       "participatingDivisions": [
         "signal-velocity",
@@ -80826,7 +80826,7 @@
     },
     {
       "id": "node-18",
-      "slug": "nomad-nexus-x-eon-core-node",
+      "slug": "node-18-nomad-nexus-x-eon-core-node",
       "name": "Nomad Nexus x Eon Core Node",
       "participatingDivisions": [
         "nomad-nexus",
@@ -80852,7 +80852,7 @@
     },
     {
       "id": "node-19",
-      "slug": "eon-core-x-cognara-mind-node",
+      "slug": "node-19-eon-core-x-cognara-mind-node",
       "name": "Eon Core x Cognara Mind Node",
       "participatingDivisions": [
         "eon-core",
@@ -80878,7 +80878,7 @@
     },
     {
       "id": "node-20",
-      "slug": "cognara-mind-x-zenflow-node",
+      "slug": "node-20-cognara-mind-x-zenflow-node",
       "name": "Cognara Mind x ZenFlow Node",
       "participatingDivisions": [
         "cognara-mind",
@@ -80929,8 +80929,8 @@
         "loom"
       ],
       "synergyNodeSlugs": [
-        "0-phase-cascade-synergy-nodes-and-revenue-roadmap",
-        "division-director-health-reports-aegis-violation-alerts-synergy-node-activations"
+        "node-1-0-phase-cascade-synergy-nodes-and-revenue-roadmap",
+        "node-2-division-director-health-reports-aegis-violation-alerts-synergy-node-activations"
       ],
       "expectedOutcomeScore": 88
     },
@@ -80959,8 +80959,8 @@
         "ledger"
       ],
       "synergyNodeSlugs": [
-        "division-director-health-reports-aegis-violation-alerts-synergy-node-activations",
-        "routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions"
+        "node-2-division-director-health-reports-aegis-violation-alerts-synergy-node-activations",
+        "node-3-routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions"
       ],
       "expectedOutcomeScore": 90
     },
@@ -80989,8 +80989,8 @@
         "apex"
       ],
       "synergyNodeSlugs": [
-        "routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions",
-        "protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when"
+        "node-3-routed-task-assignments-synergy-node-activation-instructions-aegis-enforcement-actions",
+        "node-4-protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when"
       ],
       "expectedOutcomeScore": 92
     },
@@ -81019,8 +81019,8 @@
         "sentinel"
       ],
       "synergyNodeSlugs": [
-        "protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when",
-        "u-synergy-node-orchestration-activate-cross-division-execution-units-when-requests-span-departments"
+        "node-4-protocol-portfolio-wide-activate-synergy-nodes-when-cross-division-coordination-is-required-when",
+        "node-5-u-synergy-node-orchestration-activate-cross-division-execution-units-when-requests-span-departments"
       ],
       "expectedOutcomeScore": 94
     }
