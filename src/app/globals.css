@@ -8,6 +8,9 @@
   --glass-strong: rgba(15, 23, 42, 0.78);
   --stroke: rgba(226, 232, 240, 0.14);
   --grid-line: rgba(148, 163, 184, 0.09);
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: Inter, ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 }
 
 * {
